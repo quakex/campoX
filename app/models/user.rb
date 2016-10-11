@@ -8,4 +8,9 @@ class User < ApplicationRecord
     write_attribute :username, value
     write_attribute :username_lower, value.downcase
   end
+
+  def email=(value)
+    write_attribute :email, value
+    write_attribute :email_lower, value.downcase
+  end
 end
