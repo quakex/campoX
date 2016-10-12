@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class TopicsControllerTest < ActionDispatch::IntegrationTest
+class TopicsControllerTest < ActionController::TestCase
   test "should get index" do
   end
 
