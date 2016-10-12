@@ -13,6 +13,8 @@ module CampoX
     # -- all .rb files in that directory are automatically loaded.
     if Rails.env.development?
       config.middleware.use Rack::LiveReload
+
+      Slim::Engine.set_default_options pretty: true, sort_attrs: true
     end
 
   end
