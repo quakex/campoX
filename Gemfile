@@ -13,6 +13,7 @@ gem 'turbolinks', '~> 5'
 # Semantic-UI
 gem 'semantic-ui-sass'
 gem 'jbuilder', '~> 2.5'
+gem 'slim'
 
 
 group :development, :test do
